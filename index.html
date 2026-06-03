@@ -2,60 +2,309 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Captain’s Log: Stardate – Support</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Fellowship of LOTR — a Middle-earth companion app by Agile Conqueror Company." />
+  <title>Privacy Policy | Fellowship of LOTR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --bg-deep: #0a0b0c;
+      --bg-card: rgba(18, 14, 12, 0.92);
+      --gold: #c9a227;
+      --gold-dim: rgba(201, 162, 39, 0.55);
+      --crimson: #8b2635;
+      --text: #e8e0d4;
+      --text-muted: #a89880;
+      --border: rgba(201, 162, 39, 0.35);
+      --link: #d4b84a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+      font-size: 1.125rem;
+      line-height: 1.75;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(139, 38, 53, 0.25), transparent),
+        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(201, 162, 39, 0.08), transparent),
+        linear-gradient(180deg, #0f0d0b 0%, var(--bg-deep) 40%, #060607 100%);
+      min-height: 100vh;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .wrap {
       max-width: 720px;
-      margin: 40px auto;
-      padding: 0 16px;
-      line-height: 1.6;
-      color: #111827;
+      margin: 0 auto;
     }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      font-family: "Cinzel", serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--crimson);
+      margin-bottom: 0.75rem;
+    }
+
     h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
+      font-family: "Cinzel", serif;
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.06em;
+      margin-bottom: 0.5rem;
     }
+
+    .subtitle {
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .meta {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    main {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem 1.75rem;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+    }
+
     h2 {
-      margin-top: 24px;
-      font-size: 20px;
+      font-family: "Cinzel", serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 2rem 0 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--gold-dim);
     }
-    a { text-decoration: none; color: #2563eb; }
+
+    h2:first-child { margin-top: 0; }
+
+    p { margin-bottom: 1rem; }
+
+    ul {
+      margin: 0 0 1rem 1.25rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    a:hover { color: #f0d878; }
+
+    strong { color: var(--text); font-weight: 600; }
+
+    .ornament {
+      text-align: center;
+      color: var(--gold-dim);
+      margin: 1.5rem 0;
+      letter-spacing: 0.5em;
+      font-size: 0.75rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    footer a { color: var(--gold-dim); }
+
+    @media (max-width: 480px) {
+      main { padding: 1.5rem 1.15rem; }
+      body { font-size: 1.05rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Captain’s Log: Stardate – Support</h1>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">Middle-earth · Legal Scroll</p>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Fellowship of LOTR</p>
+      <p class="meta">Effective date: <strong>June 2, 2026</strong></p>
+    </header>
 
-  <p>
-    This page provides support information for the <strong>Captain’s Log: Stardate</strong> mobile application.
-    If you have any questions, need assistance, or want to report an issue, you’re in the right place.
-  </p>
+    <main>
+      <h2>Introduction</h2>
+      <p>
+        <strong>Fellowship of LOTR</strong> (“the App”, “Service”) is a commercial mobile application
+        developed and operated by <strong>Agile Conqueror Company</strong>, represented by
+        <strong>Hakan Çevik</strong> (“we”, “us”, “our”).
+      </p>
+      <p>
+        This Privacy Policy explains how we collect, use, disclose, and safeguard information when you
+        use the App on Android devices. By using the Service, you agree to the practices described here.
+        Terms not defined in this policy have the meaning given in our Terms of Use.
+      </p>
 
-  <h2>Contact</h2>
-  <p>
-    For technical issues, feature requests, feedback, account matters, or general inquiries, please contact:
-  </p>
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:hakanxcevik7@gmail.com">hakanxcevik7@gmail.com</a>
-  </p>
+      <div class="ornament">✦ ✦ ✦</div>
 
-  <h2>Account & Data</h2>
-  <p>
-    You may request data deletion, log removal, or account-related assistance via email.
-    Please contact us from the email address you used inside the app and include any relevant details.
-  </p>
+      <h2>Information We Collect</h2>
 
-  <h2>Abuse & Safety</h2>
-  <p>
-    To report inappropriate content, bugs, or security concerns, email us with screenshots or descriptions.
-    All reports are reviewed according to our guidelines and applicable laws.
-  </p>
+      <p><strong>Information you provide locally on your device</strong></p>
+      <ul>
+        <li>Journal / archive entries (text, optional photos, optional audio recordings)</li>
+        <li>App preferences (theme, language, notification settings, gameplay progress)</li>
+        <li>In-app currency balance, unlocked content, and mission progress</li>
+      </ul>
+      <p>
+        This content is stored primarily on your device (local database and preferences). We do not
+        operate a user account server that stores your journal entries on our own backend.
+      </p>
 
-  <h2>Legal</h2>
-  <p>
-    &copy; 2025 Captain’s Log: Stardate. All rights reserved.
-  </p>
+      <p><strong>Device permissions</strong></p>
+      <ul>
+        <li><strong>Internet</strong> — analytics, crash reporting, ads, in-app purchases, and image search</li>
+        <li><strong>Camera</strong> — optional photos for journal entries (only when you choose to use it)</li>
+        <li><strong>Microphone</strong> — optional audio notes for journal entries (only when you choose to use it)</li>
+        <li><strong>Notifications</strong> — optional daily reminders and mission alerts (if enabled)</li>
+        <li><strong>Billing</strong> — processed through Google Play for subscriptions and in-app purchases</li>
+      </ul>
+
+      <p><strong>Automatically collected information</strong></p>
+      <p>
+        When you use the App, we and our service providers may collect diagnostic and usage data, such as:
+      </p>
+      <ul>
+        <li>Device type, operating system version, and app version</li>
+        <li>Crash logs and performance data</li>
+        <li>General usage events (e.g., screens viewed, features used, gameplay events)</li>
+        <li>Purchase and subscription status (via our billing provider)</li>
+        <li>Advertising-related data when you view rewarded ads (via Google AdMob)</li>
+      </ul>
+      <p>
+        We do not intentionally collect your name, email address, or phone number through the App itself.
+        If you contact us by email, we will receive the information you choose to send.
+      </p>
+
+      <h2>How We Use Information</h2>
+      <ul>
+        <li>Provide, maintain, and improve the App and its features</li>
+        <li>Process in-app purchases and subscriptions</li>
+        <li>Deliver rewarded advertisements and grant in-app rewards where applicable</li>
+        <li>Measure app performance, diagnose crashes, and understand feature usage</li>
+        <li>Respond to support requests and legal obligations</li>
+      </ul>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        The App uses third-party services that may collect information used to identify you or your device.
+        These providers process data under their own privacy policies:
+      </p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase (Analytics &amp; Crashlytics)</a></li>
+        <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google AdMob</a></li>
+        <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat</a> (subscriptions &amp; purchases)</li>
+        <li><a href="https://pixabay.com/service/privacy/" target="_blank" rel="noopener noreferrer">Pixabay</a> (optional image search in the journal feature)</li>
+      </ul>
+      <p>
+        When you search for images inside the App, your search query is sent to Pixabay’s API to retrieve
+        results. We encourage you to review Pixabay’s privacy policy for details on their data practices.
+      </p>
+
+      <h2>Advertising &amp; Purchases</h2>
+      <p>
+        The App may show <strong>rewarded video ads</strong> through Google AdMob. Premium subscribers may
+        receive an ad-free or reduced-ad experience depending on the active subscription tier.
+      </p>
+      <p>
+        Subscriptions and digital purchases are handled by <strong>Google Play Billing</strong> and
+        <strong>RevenueCat</strong>. We do not receive or store your full payment card details.
+      </p>
+
+      <h2>Data Retention</h2>
+      <p>
+        Locally stored app data remains on your device until you delete it, uninstall the App, or clear app
+        data. Analytics and crash data retained by third-party providers are governed by their respective
+        retention policies.
+      </p>
+
+      <h2>Data Security</h2>
+      <p>
+        We use commercially reasonable measures to protect information processed through the Service.
+        However, no method of transmission over the Internet or electronic storage is 100% secure, and we
+        cannot guarantee absolute security.
+      </p>
+
+      <h2>Children’s Privacy</h2>
+      <p>
+        The Service is not directed to children under the age of <strong>13</strong>, and we do not
+        knowingly collect personal information from children under 13. If you are a parent or guardian and
+        believe your child has provided us with personal information, please contact us and we will take
+        appropriate steps to delete such information.
+      </p>
+
+      <h2>Links &amp; External Content</h2>
+      <p>
+        The App may contain links to external websites or open third-party content (including support pages
+        and legal documents). We are not responsible for the privacy practices of those sites. Some media
+        assets in the App may be sourced from third-party websites; their data practices are governed by
+        their own policies.
+      </p>
+
+      <h2>Your Choices</h2>
+      <ul>
+        <li>Disable notifications in your device or in-app settings</li>
+        <li>Deny camera or microphone permissions (optional features will be unavailable)</li>
+        <li>Manage ad personalization through your device’s Google account / ad settings</li>
+        <li>Uninstall the App to remove locally stored data from your device</li>
+      </ul>
+
+      <h2>International Users</h2>
+      <p>
+        If you use the App from outside your country of residence, your information may be transferred to
+        and processed in countries where our service providers operate, including the United States.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Changes will be posted on this page with an
+        updated effective date. Continued use of the App after changes constitutes acceptance of the revised
+        policy.
+      </p>
+
+      <h2>Contact Us</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact:
+      </p>
+      <p>
+        <strong>Hakan Çevik</strong><br />
+        Agile Conqueror Company<br />
+        Email: <a href="mailto:hakanxcevik7@gmail.com">hakanxcevik7@gmail.com</a>
+      </p>
+    </main>
+
+    <footer>
+      <p>© 2026 Agile Conqueror Company · Fellowship of LOTR</p>
+      <p><a href="https://cevik10.github.io/FellowshipOfLotrTermsOfUse/">Terms of Use</a> · <a href="https://cevik10.github.io/FellowshipOfLotrSupport/">Support</a></p>
+    </footer>
+  </div>
 </body>
 </html>
